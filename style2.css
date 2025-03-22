@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #4CAF50, #00BCD4);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #45a049, #0097A7);
+    transform: scale(1.05);
+}
+
+
+.dark-mode {
+    background: #121212;
+    color: #f4f4f4;
+}
+
+.dark-mode button {
+    background: linear-gradient(45deg, #FF5722, #FF9800);
+}
+
+.dark-mode button:hover {
+    background: linear-gradient(45deg, #E64A19, #F57C00);
+}
+
+
+button:active {
+    transform: scale(0.95);
+}
